@@ -3,9 +3,9 @@ session_start();
 require_once 'includes/db.php';
 
 // Already logged in
-if (isset($_SESSION['user_id'])) {
-    header('Location: index.php'); exit;
-}
+//if (isset($_SESSION['user_id'])) {
+  //  header('Location: index.php'); exit;
+//}
 
 $error = '';
 $success = '';

@@ -158,6 +158,7 @@ $critStock = $db->query("SELECT name, stock_quantity, min_stock_level, expiry_da
         </tr>
         <?php endwhile; ?>
         </tbody>
+        
       </table>
     </div>
   </div>
